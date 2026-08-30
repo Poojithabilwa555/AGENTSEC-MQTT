@@ -1,0 +1,49 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing/cache
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets / credentials
+mqtt_security/passwd
+.env
+*.env
+
+# Generated ML files
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

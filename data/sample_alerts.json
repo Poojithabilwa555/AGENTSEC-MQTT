@@ -1,0 +1,13 @@
+{
+    "alert_id": "ALERT-001",
+    "timestamp": "2026-08-30T10:30:00",
+    "device_id": "device_27",
+    "client_id": "mqtt_client_27",
+    "source_ip": "192.168.1.27",
+    "topic": "/factory/control",
+    "attack_type": "Replay Attack",
+    "ml_confidence": 0.94,
+    "packet_frequency": 180,
+    "duplicate_payload_ratio": 0.87,
+    "qos": 1
+}

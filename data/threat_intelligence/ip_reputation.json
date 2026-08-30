@@ -1,0 +1,28 @@
+{
+    "192.168.1.27": {
+        "reputation": "suspicious",
+        "risk_score": 82,
+        "known_attacks": [
+            "Replay Attack",
+            "MQTT Flood"
+        ],
+        "description": "Internal device showing abnormal MQTT behavior."
+    },
+
+    "192.168.1.50": {
+        "reputation": "malicious",
+        "risk_score": 95,
+        "known_attacks": [
+            "Brute Force",
+            "Unauthorized Publish"
+        ],
+        "description": "Previously associated with suspicious authentication activity."
+    },
+
+    "10.0.0.15": {
+        "reputation": "clean",
+        "risk_score": 5,
+        "known_attacks": [],
+        "description": "No known malicious activity."
+    }
+}
